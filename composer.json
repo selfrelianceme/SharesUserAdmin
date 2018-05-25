@@ -1,0 +1,31 @@
+{
+  "name": "selfreliance/sharesuseradmin",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Shares user list",
+  "keywords": ["laravel"],
+  "homepage": "https://github.com/selfrelianceme/sharesuseradmin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vlad Kit",
+      "email": "vladwebkit@gmail.com"
+    }
+  ],
+  "extra": {
+      "laravel":{
+          "providers": [
+            "Selfreliance\\SharesUserAdmin\\SharesUserAdminServiceProvider"
+          ]
+      }
+  },
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8"
+  },
+  "autoload": {
+    "psr-4": {"Selfreliance\\SharesUserAdmin\\": "src/"}
+  }
+}
